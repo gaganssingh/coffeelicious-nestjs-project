@@ -1,0 +1,25 @@
+### Get all
+GET http://localhost:3000/coffees
+
+### Get by id
+GET http://localhost:3000/coffees/10
+
+### Post new
+POST http://localhost:3000/coffees
+content-type: application/json
+
+{
+  "name": "Old Whiskey Roast",
+  "brand": "Costal CC"
+}
+
+### Patch
+PATCH http://localhost:3000/coffees/10
+content-type: application/json
+
+{
+  "name": "New Rum Special"
+}
+
+### Delete
+DELETE http://localhost:3000/coffees/10

@@ -10,11 +10,12 @@ content-type: application/json
 
 {
   "name": "Old Whiskey Roast",
-  "brand": "Costal CC"
+  "brand": "Costal CC",
+  "flavors": ["peach", "jasmine"]
 }
 
 ### Patch
-PATCH http://localhost:3000/coffees/10
+PATCH http://localhost:3000/coffees/1
 content-type: application/json
 
 {

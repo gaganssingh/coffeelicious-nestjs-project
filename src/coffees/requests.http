@@ -1,8 +1,8 @@
 ### Get all
-GET http://localhost:3000/coffees
+GET http://localhost:3000/coffees?limit=20&offset=10
 
 ### Get by id
-GET http://localhost:3000/coffees/10
+GET http://localhost:3000/coffees/12
 
 ### Post new
 POST http://localhost:3000/coffees
@@ -22,4 +22,4 @@ content-type: application/json
 }
 
 ### Delete
-DELETE http://localhost:3000/coffees/10
+DELETE http://localhost:3000/coffees/1

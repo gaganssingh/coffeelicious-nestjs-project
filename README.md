@@ -108,3 +108,15 @@
   CREATE src/cpu/cpu.controller.ts
   UPDATE src/cpu/cpu.module.ts
   ```
+- Generate a DTO class:
+  `nest generate class coffees/dto/create-coffee.dto --no-spec`
+  Responds with:
+  ```
+  CREATE src/coffees/dto/create-coffee.dto.ts
+  ```
+  Generates:
+  ```
+  export class CreateCoffeeDto {
+
+  }
+  ```
